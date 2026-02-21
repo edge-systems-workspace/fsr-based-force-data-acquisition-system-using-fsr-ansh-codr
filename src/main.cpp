@@ -8,6 +8,10 @@
  * @date 2026-02-21
  */
 
+#define FSR_PIN A0
+
+int fsrValue = 0;
+
 void setup() {
 }
 
