@@ -18,4 +18,9 @@ void setup() {
 }
 
 void loop() {
+
+    fsrValue = analogRead(FSR_PIN);
+
+    Serial.print("Raw ADC Value: ");
+    Serial.println(fsrValue);
 }
